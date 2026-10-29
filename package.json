@@ -1,0 +1,24 @@
+{
+  "name": "squeek-watch",
+  "version": "0.1.0",
+  "description": "Terminal monitor for Squeekchain, the hamster-powered blockchain: wheel, blocks, settlements, SQK supply and activity.",
+  "type": "module",
+  "bin": {
+    "squeek-watch": "bin/squeek-watch.mjs"
+  },
+  "scripts": {
+    "start": "node bin/squeek-watch.mjs",
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "keywords": [
+    "squeekchain",
+    "sqk",
+    "hamster",
+    "sepolia",
+    "cli"
+  ],
+  "license": "MIT"
+}
